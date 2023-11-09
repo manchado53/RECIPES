@@ -2,7 +2,7 @@
   "tests": [
     {
       "name": "CheckStyle",
-      "setup": "wget --no-verbose https://github.com/checkstyle/checkstyle/releases/download/checkstyle-10.12.4/checkstyle-10.12.4-all.jar; wget --no-verbose https://csse.msoe.us/csc1110/MSOE_checkStyle.xml;",
+      "setup": "wget --no-verbose https://github.com/checkstyle/checkstyle/releases/download/checkstyle-10.12.4/checkstyle-10.12.4-all.jar wget --no-verbose https://csse.msoe.us/csc1110/MSOE_checkStyle.xml; ",
       "run": "java -jar checkstyle-10.12.4-all.jar -c MSOE_checkStyle.xml -e src/test/*.java src/**/*.java;",
       "input": "",
       "output": "",
